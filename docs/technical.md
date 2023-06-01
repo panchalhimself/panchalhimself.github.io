@@ -1,3 +1,3 @@
 # **Technical**
 
-- [k "eight" s](technical/k8s-23.md)
+- 31 May 2023 [Passed AWS Solutions Architect Associate](technical//Certifications/AWS-SAA03.md)

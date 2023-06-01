@@ -1,3 +1,3 @@
 # **Personal**
 
-- [Ha Gian Loop April 23](personal/hagian-23.md)
+- 30 April 2023 [Trip to Vietnam](personal/Trips/Vietnam-23.md)
