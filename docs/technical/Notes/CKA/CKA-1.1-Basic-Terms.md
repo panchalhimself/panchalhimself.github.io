@@ -57,7 +57,6 @@ In case of HA requirement these components can have more than single instance ru
     * communicates with control plane regarding node status and various info of the running containers.
 
 * **container-runtime**
-
     * container software for actual container process.
     * ex: docker and contianerd
 

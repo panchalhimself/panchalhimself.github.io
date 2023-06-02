@@ -16,7 +16,7 @@ permalink: /
 
 **Notes**
 
-- 02 June 2023 [Notes: CKA-1.1 Basic-Terms](technical/Notes/CKA/Basic-Terms.md)
+- 02 June 2023 [Notes: CKA-1.1 Basic-Terms](technical/Notes/CKA/CKA-1.1-Basic-Terms.md)
 
 
 ---
