@@ -19,6 +19,8 @@ permalink: /
 - 02 June 2023 [Notes: CKA-1.1 Basic-Terms](technical/Notes/CKA/CKA-1.1-Basic-Terms.md)
 
 
+- 02 June 2023 [Notes: CKA-1.2 Installing k8s components](technical/Notes/CKA/CKA-1.2-install-k8s-components.md)
+
 ---
 ---
 
