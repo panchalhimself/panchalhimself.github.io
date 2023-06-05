@@ -331,3 +331,12 @@ In order to admin the cluster from the worker nodes as well, you will need to do
 
 
 Reference: https://nonanom.medium.com/run-nginx-on-kubernetes-ee6ea937bc99
+
+
+
+***Github repo for reference***
+---
+
+https://github.com/panchal-yash/vagrant-k8s-setup
+
+
