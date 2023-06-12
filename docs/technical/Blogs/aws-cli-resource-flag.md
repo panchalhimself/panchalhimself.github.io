@@ -1,5 +1,5 @@
 # AWS CLI regional selection flag
-10 jun 2023
+10 Jun 2023
 
 
 ***AWS CLI and Resource filtering***
