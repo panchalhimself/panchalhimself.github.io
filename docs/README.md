@@ -23,6 +23,9 @@ permalink: /
 
 - 02 June 2023 [Notes: k8s-1.3 Initialize and setup k8s cluster](technical/Notes/k8s/k8s-1.3-initialize-and-setup-k8s-cluster.md)
 
+- 14 June 2023 [Notes: k8s-1.4 High Availability for k8s architecture](technical/Notes/k8s/k8s-1.4-K8s-arch-ha.md)
+
+
 ---
 ---
 
