@@ -5,6 +5,8 @@ permalink: /
 ---
 
 ## **Tech Blogs**
+
+- 13 Jun 2023 [Filter aws resources efficiently using aws cli](technical/Blogs/filter-aws-resources-efficiently.md)
 - 12 Jun 2023 [Simplifying ruby installation and setup using rvm.](technical/Blogs/simplify-ruby-setups.md)
 - 10 Jun 2023 [Query resource details across different regions in aws quickly.](technical/Blogs/aws-cli-resource-flag.md)
 - 31 May 2023 [AWS Certified Solutions Architect Associate 03](technical/Certifications/AWS-SAA03.md)
