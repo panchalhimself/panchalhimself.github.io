@@ -25,6 +25,7 @@ permalink: /
 
 - 14 June 2023 [Notes: k8s-1.4 High Availability for k8s architecture](technical/Notes/k8s/k8s-1.4-K8s-arch-ha.md)
 
+- 14 June 2023 [Notes: k8s-1.4-1 k8s management tools](technical/Notes/k8s/k8s-1.4.1-K8s-management-tools.md)
 
 ---
 ---
