@@ -27,6 +27,11 @@ permalink: /
 
 - 14 June 2023 [Notes: k8s-1.4-1 k8s management tools](technical/Notes/k8s/k8s-1.4.1-K8s-management-tools.md)
 
+- 14 June 2023 [Notes: k8s-1.5 Drain and Uncordon Nodes in Kubernetes](technical/Notes/k8s/k8s-1.5-drain-uncordon-nodes.md)
+
+- 15 June 2023 [Notes: k8s-1.6 Upgrade Kubernetes cluster](technical/Notes/k8s/k8s-1.6-upgrade-k8s.md)
+
+
 ---
 ---
 
