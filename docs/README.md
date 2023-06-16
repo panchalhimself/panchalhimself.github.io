@@ -4,6 +4,7 @@ permalink: /
 
 ## **Blogs**
 
+- 16 Jun 2023 [Github actions <3 basic setup](technical/Blogs/github-actions-is-cool.md)
 - 13 Jun 2023 [Filter aws resources efficiently using aws cli](technical/Blogs/filter-aws-resources-efficiently.md)
 - 12 Jun 2023 [Simplifying ruby installation and setup using rvm.](technical/Blogs/simplify-ruby-setups.md)
 - 10 Jun 2023 [Query resource details across different regions in aws quickly.](technical/Blogs/aws-cli-resource-flag.md)
@@ -23,7 +24,8 @@ permalink: /
 - 14 June 2023 [Notes: k8s-1.4-1 k8s management tools](technical/Notes/k8s/k8s-1.4.1-K8s-management-tools.md)
 - 14 June 2023 [Notes: k8s-1.5 Drain and Uncordon Nodes in Kubernetes](technical/Notes/k8s/k8s-1.5-drain-uncordon-nodes.md)
 - 15 June 2023 [Notes: k8s-1.6 Upgrade Kubernetes cluster](technical/Notes/k8s/k8s-1.6-upgrade-k8s.md)
-
+- 16 June 2023 [Notes: k8s-1.7 k8s commands and tricks](technical/Notes/k8s/k8s-1.7-k8s-commands.md)
+- 16 June 2023 [Notes: k8s-1.8 k8s basic RBAC: roles,clusterroles,rolebindings and clusterrolebindings](technical/Notes/k8s/k8s-1.8-k8s-rbac-management.md)
 
 ---
 
