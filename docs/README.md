@@ -26,6 +26,8 @@ permalink: /
 - 15 June 2023 [Notes: k8s-1.6 Upgrade Kubernetes cluster](technical/Notes/k8s/k8s-1.6-upgrade-k8s.md)
 - 16 June 2023 [Notes: k8s-1.7 k8s commands and tricks](technical/Notes/k8s/k8s-1.7-k8s-commands.md)
 - 16 June 2023 [Notes: k8s-1.8 k8s basic RBAC: roles,clusterroles,rolebindings and clusterrolebindings](technical/Notes/k8s/k8s-1.8-k8s-rbac-management.md)
+- 17 June 2023 [Notes: k8s-1.9 Kubernetes service accounts](technical/Notes/k8s/k8s-1.9-k8s-kubernetes-service-accounts.md)
+
 
 ---
 
