@@ -4,7 +4,7 @@ permalink: /
 
 ## **Blogs**
 
-- 16 Jun 2023 [Github actions <3 basic setup](technical/Blogs/github-actions-is-cool.md)
+- 17 Jun 2023 [Github actions <3 basic setup](technical/Blogs/github-actions-is-cool.md)
 - 13 Jun 2023 [Filter aws resources efficiently using aws cli](technical/Blogs/filter-aws-resources-efficiently.md)
 - 12 Jun 2023 [Simplifying ruby installation and setup using rvm.](technical/Blogs/simplify-ruby-setups.md)
 - 10 Jun 2023 [Query resource details across different regions in aws quickly.](technical/Blogs/aws-cli-resource-flag.md)
