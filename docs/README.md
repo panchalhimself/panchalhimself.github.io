@@ -28,6 +28,7 @@ permalink: /
 - 16 June 2023 [Notes: k8s-1.8 k8s basic RBAC: roles,clusterroles,rolebindings and clusterrolebindings](technical/Notes/k8s/k8s-1.8-k8s-rbac-management.md)
 - 17 June 2023 [Notes: k8s-1.9 kubernetes service accounts](technical/Notes/k8s/k8s-1.9-k8s-kubernetes-service-accounts.md)
 - 18 June 2023 [Notes: k8s-1.10 kubernetes addons and k8s metrics server basics](technical/Notes/k8s/k8s-1.10-k8s-addons-metric-server-basics.md)
+- 19 June 2023 [Notes: k8s-1.11 kubernetes application configuration management: configMaps and secrets](technical/Notes/k8s/k8s-1.11-k8s-application-config-management.md)
 
 ---
 
