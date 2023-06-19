@@ -30,6 +30,7 @@ permalink: /
 - 18 June 2023 [Notes: k8s-1.10 kubernetes addons and k8s metrics server basics](technical/Notes/k8s/k8s-1.10-k8s-addons-metric-server-basics.md)
 - 19 June 2023 [Notes: k8s-1.11 kubernetes application configuration management: configMaps and secrets](technical/Notes/k8s/k8s-1.11-k8s-application-config-management.md)
 - 19 June 2023 [Notes: k8s-1.12 kubernetes resource requests and limits](technical/Notes/k8s/k8s-1.12-k8s-resource-requests.md)
+- 19 June 2023 [Notes: k8s-1.13 kubernetes health monitoring](technical/Notes/k8s/k8s-1.13-k8s-container-health-monitoring.md)
 
 
 ---
