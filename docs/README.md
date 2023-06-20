@@ -16,7 +16,6 @@ permalink: /
 
 ***k8s***
 ---
-
 - 02 June 2023 [Notes: k8s-1.1 basic-terms](technical/Notes/k8s/k8s-1.1-Basic-Terms.md)
 - 02 June 2023 [Notes: k8s-1.2 installing k8s components](technical/Notes/k8s/k8s-1.2-install-k8s-components.md)
 - 02 June 2023 [Notes: k8s-1.3 initialize and setup k8s cluster](technical/Notes/k8s/k8s-1.3-initialize-and-setup-k8s-cluster.md)
@@ -32,6 +31,8 @@ permalink: /
 - 19 June 2023 [Notes: k8s-1.12 kubernetes resource requests and limits](technical/Notes/k8s/k8s-1.12-k8s-resource-requests.md)
 - 19 June 2023 [Notes: k8s-1.13 kubernetes health monitoring](technical/Notes/k8s/k8s-1.13-k8s-container-health-monitoring.md)
 - 20 June 2023 [Notes: k8s-1.14 kubernetes restart policies](technical/Notes/k8s/k8s-1.14-k8s-restart-policies.md)
+- 20 June 2023 [Notes: k8s-1.15 multi container pods in kubernetes](technical/Notes/k8s/k8s-1.15-k8s-multi-container-pods.md)
+- 20 June 2023 [Notes: k8s-1.16 init containers in kubernetes](technical/Notes/k8s/k8s-1.16-k8s-using-init-containers.md)
 
 ---
 
