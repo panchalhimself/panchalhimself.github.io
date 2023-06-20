@@ -33,6 +33,23 @@ permalink: /
 - 20 June 2023 [Notes: k8s-1.14 kubernetes restart policies](technical/Notes/k8s/k8s-1.14-k8s-restart-policies.md)
 - 20 June 2023 [Notes: k8s-1.15 multi container pods in kubernetes](technical/Notes/k8s/k8s-1.15-k8s-multi-container-pods.md)
 - 20 June 2023 [Notes: k8s-1.16 init containers in kubernetes](technical/Notes/k8s/k8s-1.16-k8s-using-init-containers.md)
+- 20 June 2023 [Notes: k8s-1.17 scheduling pods](technical/Notes/k8s/k8s-1.17-k8s-pod-scheduling.md)
+- 20 June 2023 [Notes: k8s-1.18 daemonsets](technical/Notes/k8s/k8s-1.18-k8s-daemonsets-kubernetes.md)
+- 20 June 2023 [Notes: k8s-1.19 static pods](technical/Notes/k8s/k8s-1.19-k8s-static-pods.md)
+- 20 June 2023 [Notes: k8s-1.20 scaling apps using deployments in k8s ](technical/Notes/k8s/k8s-1.20-deployments-kubernetes.md)
+
+---
+TBD
+---
+- 21 June 2023 [Notes: k8s-1.21 rolling updates ](technical/Notes/k8s/)
+- 21 June 2023 [Notes: k8s-1.22 basic networking overview ](technical/Notes/k8s/)
+- 21 June 2023 [Notes: k8s-1.23 cni and dns ](technical/Notes/k8s/)
+- 21 June 2023 [Notes: k8s-1.24 network policies ](technical/Notes/k8s/)
+- 21 June 2023 [Notes: k8s-1.25 services in k8s ](technical/Notes/k8s/)
+- 21 June 2023 [Notes: k8s-1.26 ingress for external access to the cluster ](technical/Notes/k8s/)
+- 21 June 2023 [Notes: k8s-1.27 storage overview ](technical/Notes/k8s/)
+- 21 June 2023 [Notes: k8s-1.28 volumes, persistent volumes ](technical/Notes/k8s/)
+
 
 ---
 
