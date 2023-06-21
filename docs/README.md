@@ -42,12 +42,13 @@ permalink: /
 - 21 June 2023 [Notes: k8s-1.23 dns in k8s ](technical/Notes/k8s/k8s-1.23-dns.md)
 - 21 June 2023 [Notes: k8s-1.24 network policies ](technical/Notes/k8s/k8s-1.24-network-policies.md)
 - 21 June 2023 [Notes: k8s-1.25 services in k8s ](technical/Notes/k8s/k8s-1.25-services-in-kubernetes.md)
+- 22 June 2023 [Notes: k8s-1.26 ingress for external access to the cluster ](technical/Notes/k8s/)
 
 ---
 TBD
 ---
 
-- 21 June 2023 [Notes: k8s-1.26 ingress for external access to the cluster ](technical/Notes/k8s/)
+
 - 21 June 2023 [Notes: k8s-1.27 storage overview ](technical/Notes/k8s/)
 - 21 June 2023 [Notes: k8s-1.28 volumes, persistent volumes ](technical/Notes/k8s/)
 
