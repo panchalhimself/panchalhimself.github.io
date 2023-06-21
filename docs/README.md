@@ -47,14 +47,9 @@ permalink: /
 TBD
 ---
 
-
-
-
-
 - 21 June 2023 [Notes: k8s-1.26 ingress for external access to the cluster ](technical/Notes/k8s/)
 - 21 June 2023 [Notes: k8s-1.27 storage overview ](technical/Notes/k8s/)
 - 21 June 2023 [Notes: k8s-1.28 volumes, persistent volumes ](technical/Notes/k8s/)
-
 
 ---
 
