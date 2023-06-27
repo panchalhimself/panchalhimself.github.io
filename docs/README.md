@@ -23,7 +23,7 @@ permalink: /
 - 14 June 2023 [Notes: k8s-1.4-1 k8s management tools](technical/Notes/k8s/k8s-1.4.1-K8s-management-tools.md)
 - 14 June 2023 [Notes: k8s-1.5 drain and Uncordon Nodes in Kubernetes](technical/Notes/k8s/k8s-1.5-drain-uncordon-nodes.md)
 - 15 June 2023 [Notes: k8s-1.6 upgrade Kubernetes cluster](technical/Notes/k8s/k8s-1.6-upgrade-k8s.md)
-- 15 June 2023 [Notes: k8s-1.6 backup and restore etcd](technical/Notes/k8s/k8s-1.6-1-backup-restore-etcd-clusterdata.md)
+- 15 June 2023 [Notes: k8s-1.6-1 backup and restore etcd ----TBD](technical/Notes/k8s/k8s-1.6-1-backup-restore-etcd-clusterdata.md)
 - 16 June 2023 [Notes: k8s-1.7 k8s commands and tricks](technical/Notes/k8s/k8s-1.7-k8s-commands.md)
 - 16 June 2023 [Notes: k8s-1.8 k8s basic RBAC: roles,clusterroles,rolebindings and clusterrolebindings](technical/Notes/k8s/k8s-1.8-k8s-rbac-management.md)
 - 17 June 2023 [Notes: k8s-1.9 kubernetes service accounts](technical/Notes/k8s/k8s-1.9-k8s-kubernetes-service-accounts.md)
