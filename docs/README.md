@@ -48,11 +48,11 @@ permalink: /
 - 22 June 2023 [Notes: k8s-1.25 services in k8s ](technical/Notes/k8s/k8s-1.25-services-in-kubernetes.md)
 - 23 June 2023 [Notes: k8s-1.26 ingress for external access to the cluster ](technical/Notes/k8s/k8s-1.26-ingress-kubernetes.md)
 - 24 June 2023 [Notes: k8s-1.27 storage-TBD-- ](technical/Notes/k8s/k8s-1.27-storage-overview.md)
+- 30 June 2023 [Notes: k8s-1.28 taints and tolerations ](technical/Notes/k8s/k8s-1.28-taints-and-tolerations.md)
+- 30 June 2023 [Notes: k8s-1.29 affinity and antiaffinity ](technical/Notes/k8s/k8s-1.29-affinity-and-antiaffinity.md)
 
 ---
 
-- 30 June 2023 [Notes: k8s-1.28 taints and tolerations ](technical/Notes/k8s/k8s-1.28-taints-and-tolerations.md)
-- 30 June 2023 [Notes: k8s-1.29 affinity and antiaffinity ](technical/Notes/k8s/k8s-1.29-affinity-and-antiaffinity.md)
 - 30 June 2023 [Notes: k8s-1.30 statefulset ](technical/Notes/k8s/k8s-1.30-statefulsets.md)
 
 
