@@ -50,6 +50,7 @@ permalink: /
 - 24 June 2023 [Notes: k8s-1.27 storage-TBD-- ](technical/Notes/k8s/k8s-1.27-storage-overview.md)
 - 30 June 2023 [Notes: k8s-1.28 taints and tolerations ](technical/Notes/k8s/k8s-1.28-taints-and-tolerations.md)
 - 30 June 2023 [Notes: k8s-1.29 affinity and antiaffinity ](technical/Notes/k8s/k8s-1.29-affinity-and-antiaffinity.md)
+- 30 June 2023 [Notes: k8s-1.30 topology spread constraints ](technical/Notes/k8s/k8s-1.30-topology-spread-constraints.md)
 
 ---
 
