@@ -3,7 +3,10 @@ permalink: /
 ---
 
 ## **Blogs**
-- 29 Jun 2023 [Lessons on taints and nodeName -TBD](technical/Blogs/lesson-on-taints-and-nodeName-noschedule.md)
+- 30 Jun 2023 [Lessons on taints and nodeName -TBD](technical/Blogs/lesson-on-taints-and-nodeName-noschedule.md)
+
+---
+
 - 17 Jun 2023 [github actions <3 basic setup](technical/Blogs/github-actions-is-cool.md)
 - 13 Jun 2023 [filter aws resources efficiently using aws cli](technical/Blogs/filter-aws-resources-efficiently.md)
 - 12 Jun 2023 [simplifying ruby installation and setup using rvm.](technical/Blogs/simplify-ruby-setups.md)
@@ -47,6 +50,11 @@ permalink: /
 - 24 June 2023 [Notes: k8s-1.27 storage-TBD-- ](technical/Notes/k8s/k8s-1.27-storage-overview.md)
 
 ---
+
+- 30 June 2023 [Notes: k8s-1.28 taints and tolerations ](technical/Notes/k8s/k8s-1.28-taints-and-tolerations.md)
+- 30 June 2023 [Notes: k8s-1.29 affinity and antiaffinity ](technical/Notes/k8s/k8s-1.29-affinity-and-antiaffinity.md)
+- 30 June 2023 [Notes: k8s-1.30 statefulset ](technical/Notes/k8s/k8s-1.30-statefulsets.md)
+
 
 
 ***k8s security***
