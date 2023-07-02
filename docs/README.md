@@ -3,10 +3,9 @@ permalink: /
 ---
 
 ## **Blogs**
-- 30 Jun 2023 [Lessons on taints and nodeName -TBD](technical/Blogs/lesson-on-taints-and-nodeName-noschedule.md)
 
----
 
+- 03 July 2023 [cka exam experience](technical/Blogs/cka-exam-exp.md)
 - 17 Jun 2023 [github actions <3 basic setup](technical/Blogs/github-actions-is-cool.md)
 - 13 Jun 2023 [filter aws resources efficiently using aws cli](technical/Blogs/filter-aws-resources-efficiently.md)
 - 12 Jun 2023 [simplifying ruby installation and setup using rvm.](technical/Blogs/simplify-ruby-setups.md)
