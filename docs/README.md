@@ -60,9 +60,8 @@ permalink: /
 ***k8s security***
 ---
 
-- 26 June 2023 [Notes: k8s-security-1.1 layered security model](technical/Notes/k8s-security/k8s-security-1.1-layered-security-model.md)
+- 19 July 2023 [Notes: k8s-security-1 cluster setup ](technical/Notes/k8s-security/k8s-security-1-cluster-setup.md)
 
-- 26 June 2023 [Notes: k8s-security-1.2 restricting default access with networkpolicies](technical/Notes/k8s-security/k8s-security-1.2-restricting-default-access-networkpolicies.md)
 
 
 
