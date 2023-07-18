@@ -22,5 +22,4 @@ Example of network policy to restrict access to a pod
 use an empty pod selector and make sure that namespace is defined under the metadata.
 
 
-
 **Allow specific traffic in kubernetes to pods and namespaces:**

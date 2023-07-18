@@ -1,0 +1,69 @@
+## Falco and realtime k8s monitoring.
+
+
+Falco is used for monitoring linux sys calls at runtime(whenever these syscalls are executed) based on the configurations. (real time monitoring of the cluster)
+
+
+**What can be monitored using Falco?**
+---
+
+**Few examples:-**
+
+1. Privilege Escalation (any container attemting to escalate privilege)
+2. File Access (rw at particular locations)
+3. Binary Executions (Suspicious binary execution)
+
+
+
+**Analyzing container behaviour using Falco**
+---
+
+
+Using cli ```falco``` command.
+
+```falco -r <RULES_FILE>``` for custom rules file to be used with falco.
+
+```falco -M <SECONDS>``` for running Falco for a set no of seconds.
+
+
+**Falco rules**
+
+Conditions that will trigger an alert using YAML.
+
+
+```rule:``` Rule Name
+```description:``` Description of the rule
+```condition:``` Condition for the rule to trigger alert
+```output:``` Message to Show in the Alert once the rule is triggered.
+```priority:``` Priority type, can be ALERT, WARNING, NOTICE,DEBUG,etc
+
+
+Checkout the URL for more details: https://falco.org/docs/rules/basic-elements/
+
+
+
+**Using Falco**
+---
+
+Falco needs to be installed on all the nodes where containers are running (Usually on the worker nodes.)
+
+
+Create a falco-rule.yaml (any .yaml with Falco rules in it.)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
