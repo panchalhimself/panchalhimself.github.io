@@ -63,6 +63,13 @@ permalink: /
 - 19 July 2023 [Notes: k8s-security-1 cluster setup ](technical/Notes/k8s-security/k8s-security-1-cluster-setup.md)
 
 
+***aws-sap-c02***
+---
+
+- 19 Aug 2023 [Notes: Data Stores ](technical/Notes/aws-sap/data-stores.md)
+- 20 Aug 2023 [Notes: Networking ](technical/Notes/aws-sap/networking.md)
+- 21 Aug 2023 [Notes: Security and Migrations ](technical/Notes/aws-sap/security-and-migrations.md)
+- 21 Aug 2023 [Notes: Architecure to Scale ](technical/Notes/aws-sap/architecure-to-scale.md)
 
 
 ## **About**
