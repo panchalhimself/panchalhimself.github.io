@@ -458,6 +458,33 @@ get the id-no and use grep for potential methods for solving the FAILURE.
 
 Remember: You need to install and follow these steps on all the nodes.
 
+---
+### Some tricks and tips for kubebench.
+
+The Summary and remediations are arranged into three stages as follows:-
+
+x Summary
+
+x.x Sub topic 
+
+x.x.x Remediation
+
+**Example:-**
+
+```
+[INFO] 3 Control Plane Configuration
+[INFO] 3.1 Authentication and Authorization
+[WARN] 3.1.1 Client certificate authentication should not be used for users (Manual)
+[WARN] 3.1.2 Service account token authentication should not be used for users (Manual)
+[WARN] 3.1.3 Bootstrap token authentication should not be used for users (Manual)
+[INFO] 3.2 Logging
+[WARN] 3.2.1 Ensure that a minimal audit policy is created (Manual)
+[WARN] 3.2.2 Ensure that the audit policy covers key security concerns (Manual)
+```
+
+We can see above that 3 is the main topic, 3.1 is a sub topic while 3.1.1 till 3.1.3 are the remediation topics.
+
+
 # 3. TLS implementation with Ingress
 
 
