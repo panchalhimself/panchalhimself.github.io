@@ -60,8 +60,9 @@ permalink: /
 ***k8s security***
 ---
 
+- 15 Jan  2024 [Notes: Basic Terminology ](technical/Notes/k8s-security/basic-topics.md)
 - 19 July 2023 [Notes: k8s-security-1 cluster setup ](technical/Notes/k8s-security/k8s-security-1-cluster-setup.md)
-
+- 15 Jan  2024 [Notes:]
 
 ***aws-sap-c02***
 ---
