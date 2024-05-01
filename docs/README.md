@@ -2,6 +2,11 @@
 permalink: /
 ---
 
+## **Important Links**
+
+* https://everything.curl.dev/index.html [May 1 24]
+
+
 ## **Blogs**
 
 
