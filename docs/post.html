@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog Post - Yash Panchal</title>
+    <meta name="description" content="Technical blog covering Kubernetes, AWS, and Cloud Native technologies">
+    <link rel="icon" type="image/x-icon" href="assets/favicon.ico">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <script>
+        (function() {
+            try {
+                var saved = localStorage.getItem('theme');
+                var theme = saved === 'dark' || saved === 'light' ? saved : 'light';
+                document.documentElement.setAttribute('data-theme', theme);
+            } catch (e) {
+                document.documentElement.setAttribute('data-theme', 'light');
+            }
+        })();
+    </script>
+</head>
+<body class="bg-global-bg text-global-text antialiased">
+    <!-- Fixed Header -->
+    <header id="main-header" class="group">
+        <div class="header-grid">
+            <!-- Logo -->
+            <a href="index.html" class="group header-logo flex items-center">
+                <svg aria-hidden="true" class="me-3 h-10 w-6 sm:me-3 sm:h-20 sm:w-12" fill="none" focusable="false" viewBox="0 0 800 800" xmlns="http://www.w3.org/2000/svg">
+                    <title>Logo</title>
+                    <g shape-rendering="crispEdges"><g><use xlink:href="#SvgjsSymbol1009" x="50" y="600" fill="#5ff26b"></use><use xlink:href="#SvgjsSymbol1010" x="50" y="600" fill="#98ff9c"></use><use xlink:href="#SvgjsSymbol1011" x="50" y="600" fill="#0cbe3b"></use></g><g><use xlink:href="#SvgjsSymbol1009" x="150" y="550" fill="#5ff26b"></use><use xlink:href="#SvgjsSymbol1010" x="150" y="550" fill="#98ff9c"></use><use xlink:href="#SvgjsSymbol1011" x="150" y="550" fill="#0cbe3b"></use></g><g><use xlink:href="#SvgjsSymbol1009" x="250" y="500" fill="#5ff26b"></use><use xlink:href="#SvgjsSymbol1010" x="250" y="500" fill="#98ff9c"></use><use xlink:href="#SvgjsSymbol1011" x="250" y="500" fill="#0cbe3b"></use></g><g><use xlink:href="#SvgjsSymbol1009" x="350" y="450" fill="#5ff26b"></use><use xlink:href="#SvgjsSymbol1010" x="350" y="450" fill="#98ff9c"></use><use xlink:href="#SvgjsSymbol1011" x="350" y="450" fill="#0cbe3b"></use></g><g><use xlink:href="#SvgjsSymbol1009" x="350" y="350" fill="#5ff26b"></use><use xlink:href="#SvgjsSymbol1010" x="350" y="350" fill="#98ff9c"></use><use xlink:href="#SvgjsSymbol1011" x="350" y="350" fill="#0cbe3b"></use></g><g><use xlink:href="#SvgjsSymbol1009" x="50" y="500" fill="#5ff26b"></use><use xlink:href="#SvgjsSymbol1010" x="50" y="500" fill="#98ff9c"></use><use xlink:href="#SvgjsSymbol1011" x="50" y="500" fill="#0cbe3b"></use></g></g><symbol id="SvgjsSymbol1009"><polygon points="0,50 100,0 200,50 100,100"></polygon></symbol><symbol id="SvgjsSymbol1010"><polygon points="0,50 100,100 100,200 0,150"></polygon></symbol><symbol id="SvgjsSymbol1011"><polygon points="100,100 200,50 200,150 100,200"></polygon></symbol>
+                </svg>
+            </a>
+
+            <!-- Title -->
+            <div class="header-title">
+                <span class="text-xl font-bold sm:text-2xl">Yash Panchal</span>
+            </div>
+
+            <!-- Desktop Navigation -->
+            <nav class="mobile-nav-menu header-nav sm:flex sm:flex-row sm:items-center" id="navigation-menu">
+                <a href="index.html#about">About</a>
+                <a href="index.html#publications">Blog</a>
+                <a href="index.html#resume">Resume</a>
+            </nav>
+
+            <!-- Controls -->
+            <div class="header-controls flex items-center gap-3">
+                <!-- Theme Toggle -->
+                <button id="theme-toggle" class="flex h-7 w-7 items-center justify-center rounded-md border border-accent-2/20 bg-accent-2/10 p-1 transition-colors hover:bg-accent-2/20" aria-label="Switch to dark theme">
+                    <svg class="sun-icon h-4 w-4" fill="currentColor" viewBox="0 0 20 20">
+                        <path fill-rule="evenodd" d="M10 2a1 1 0 011 1v1a1 1 0 11-2 0V3a1 1 0 011-1zm4 8a4 4 0 11-8 0 4 4 0 018 0zm-.464 4.95l.707.707a1 1 0 001.414-1.414l-.707-.707a1 1 0 00-1.414 1.414zm2.12-10.607a1 1 0 010 1.414l-.706.707a1 1 0 11-1.414-1.414l.707-.707a1 1 0 011.414 0zM17 11a1 1 0 100-2h-1a1 1 0 100 2h1zm-7 4a1 1 0 011 1v1a1 1 0 11-2 0v-1a1 1 0 011-1zM5.05 6.464A1 1 0 106.465 5.05l-.708-.707a1 1 0 00-1.414 1.414l.707.707zm1.414 8.486l-.707.707a1 1 0 01-1.414-1.414l.707-.707a1 1 0 011.414 1.414zM4 11a1 1 0 100-2H3a1 1 0 000 2h1z" clip-rule="evenodd"></path>
+                    </svg>
+                    <svg class="moon-icon h-4 w-4" fill="currentColor" viewBox="0 0 20 20">
+                        <path d="M17.293 13.293A8 8 0 016.707 2.707a8.001 8.001 0 1010.586 10.586z"></path>
+                    </svg>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="mx-auto max-w-3xl px-4 sm:px-8">
+        <div class="mb-4">
+            <a href="index.html#publications" class="cactus-link">← Back to Blog</a>
+        </div>
+
+        <article class="prose" id="post-content">
+            <div class="loading-spinner">Loading post...</div>
+        </article>
+    </main>
+
+    <!-- Footer -->
+    <div class="mx-auto max-w-3xl px-4 sm:px-8 py-8 text-center text-sm opacity-75">
+        <p>Built with inspiration from astro-theme-cactus</p>
+    </div>
+
+    <script>
+        // Theme management (simplified for post page)
+        class ThemeManager {
+            constructor() {
+                this.theme = localStorage.getItem('theme') || 'light';
+                this.init();
+            }
+
+            init() {
+                this.setTheme(this.theme);
+                const themeToggle = document.getElementById('theme-toggle');
+                if (themeToggle) {
+                    themeToggle.addEventListener('click', () => this.toggleTheme());
+                }
+            }
+
+            setTheme(theme) {
+                this.theme = theme;
+                document.documentElement.setAttribute('data-theme', theme);
+                localStorage.setItem('theme', theme);
+
+                const themeToggle = document.getElementById('theme-toggle');
+                if (themeToggle) {
+                    themeToggle.setAttribute('aria-label',
+                        theme === 'dark' ? 'Switch to light theme' : 'Switch to dark theme'
+                    );
+                    const sun = themeToggle.querySelector('.sun-icon');
+                    const moon = themeToggle.querySelector('.moon-icon');
+                    if (sun && moon) {
+                        if (theme === 'dark') {
+                            sun.style.display = 'block';
+                            moon.style.display = 'none';
+                        } else {
+                            sun.style.display = 'none';
+                            moon.style.display = 'block';
+                        }
+                    }
+                }
+            }
+
+            toggleTheme() {
+                const newTheme = this.theme === 'light' ? 'dark' : 'light';
+                this.setTheme(newTheme);
+            }
+        }
+
+        // Markdown parser
+        function parseMarkdown(markdown) {
+            let html = markdown;
+            const codeBlocks = [];
+            const inlineCode = [];
+
+            // Step 1: Extract and protect code blocks
+            html = html.replace(/```[\s\S]*?```/g, function(match, offset) {
+                let code = match.substring(3, match.length - 3).trim();
+                // Escape HTML entities in code
+                code = code.replace(/&/g, '&amp;')
+                           .replace(/</g, '&lt;')
+                           .replace(/>/g, '&gt;');
+                const placeholder = `___CODEBLOCK_${codeBlocks.length}___`;
+                codeBlocks.push('<pre><code>' + code + '</code></pre>');
+                return placeholder;
+            });
+
+            // Step 2: Extract and protect inline code
+            html = html.replace(/`([^`\n]+)`/g, function(match, code) {
+                code = code.replace(/&/g, '&amp;')
+                          .replace(/</g, '&lt;')
+                          .replace(/>/g, '&gt;');
+                const placeholder = `___INLINECODE_${inlineCode.length}___`;
+                inlineCode.push('<code>' + code + '</code>');
+                return placeholder;
+            });
+
+            // Step 3: Process markdown (now safe from code interference)
+
+            // Convert headers
+            html = html.replace(/^### (.*$)/gim, '<h3>$1</h3>');
+            html = html.replace(/^## (.*$)/gim, '<h2 class="title">$1</h2>');
+            html = html.replace(/^# (.*$)/gim, '<h1 class="title">$1</h1>');
+
+            // Convert bold text
+            html = html.replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>');
+
+            // Convert italic text (single asterisk, but not at start of line for lists)
+            html = html.replace(/([^\n\*])\*([^\*\s][^\*]*?)\*/g, '$1<em>$2</em>');
+
+            // Convert links
+            html = html.replace(/\[([^\]]+)\]\(([^)]+)\)/g, '<a href="$2" class="cactus-link">$1</a>');
+
+            // Convert unordered lists (now safe, code is protected)
+            html = html.replace(/^\s*[\-\*] (.+)$/gm, '<li>$1</li>');
+            html = html.replace(/(<li>.*<\/li>)/s, '<ul>$1</ul>');
+
+            // Convert paragraphs (split by double newlines)
+            const paragraphs = html.split(/\n\s*\n/);
+            html = paragraphs.map(p => {
+                p = p.trim();
+                if (!p) return '';
+
+                // Skip if already wrapped in HTML tags or contains placeholders
+                if (p.startsWith('<') && p.endsWith('>')) return p;
+                if (p.includes('___CODEBLOCK_') || p.includes('___INLINECODE_')) return p;
+                if (p.includes('<li>') || p.includes('<h') || p.includes('<ul>') || p.includes('<div')) return p;
+
+                return `<p>${p}</p>`;
+            }).join('\n\n');
+
+            // Clean up nested tags
+            html = html.replace(/<ul>\s*(<li>.*?<\/li>)\s*<\/ul>/gs, '<ul>$1</ul>');
+            html = html.replace(/<li><\/li>/g, '');
+
+            // Convert horizontal rules
+            html = html.replace(/^---$/gm, '<hr>');
+
+            // Step 4: Restore inline code
+            inlineCode.forEach((code, index) => {
+                html = html.replace(`___INLINECODE_${index}___`, code);
+            });
+
+            // Step 5: Restore code blocks
+            codeBlocks.forEach((code, index) => {
+                html = html.replace(`___CODEBLOCK_${index}___`, code);
+            });
+
+            return html;
+        }
+
+        // Load post based on URL parameter
+        async function loadPost() {
+            const urlParams = new URLSearchParams(window.location.search);
+            const postPath = urlParams.get('post');
+
+            const contentElement = document.getElementById('post-content');
+
+            if (!postPath) {
+                contentElement.innerHTML = '<p>No post specified. <a href="index.html#publications" class="cactus-link">Go back to blog</a></p>';
+                return;
+            }
+
+            try {
+                console.log('Loading post:', postPath);
+                const response = await fetch(postPath);
+
+                if (!response.ok) {
+                    throw new Error(`HTTP ${response.status}: ${response.statusText}`);
+                }
+
+                const markdown = await response.text();
+                const html = parseMarkdown(markdown);
+                contentElement.innerHTML = html;
+
+                // Update page title
+                const h1 = contentElement.querySelector('h1');
+                if (h1) {
+                    document.title = h1.textContent + ' - Yash Panchal';
+                }
+            } catch (error) {
+                console.error('Error loading post:', error);
+                contentElement.innerHTML = `
+                    <div class="error-message">
+                        <p>Sorry, unable to load this post.</p>
+                        <p><small>Error: ${error.message}</small></p>
+                        <p><small>Path: ${postPath}</small></p>
+                        <p><a href="index.html#publications" class="cactus-link">← Back to blog</a></p>
+                    </div>
+                `;
+            }
+        }
+
+        // Initialize
+        document.addEventListener('DOMContentLoaded', () => {
+            new ThemeManager();
+            loadPost();
+        });
+    </script>
+</body>
+</html>
