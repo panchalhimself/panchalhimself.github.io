@@ -156,6 +156,11 @@
             html = html.replace(/^## (.*$)/gim, '<h2 class="title">$1</h2>');
             html = html.replace(/^# (.*$)/gim, '<h1 class="title">$1</h1>');
 
+            // Convert images (must be before links since syntax is similar)
+            html = html.replace(/!\[([^\]]*)\]\(([^)]+)\)/g, function(match, alt, src) {
+                return '<img src="' + src + '" alt="' + alt + '" loading="lazy" />';
+            });
+
             // Convert bold text
             html = html.replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>');
 
@@ -224,7 +229,30 @@
                 }
 
                 const markdown = await response.text();
-                const html = parseMarkdown(markdown);
+                let html = parseMarkdown(markdown);
+
+                // Fix relative image paths
+                // Get the directory of the markdown file
+                const postDir = postPath.substring(0, postPath.lastIndexOf('/') + 1);
+
+                // Replace ../ paths
+                html = html.replace(/src="(\.\.\/)+([^"]+)"/g, function(match, dots, relativePath) {
+                    // Count how many ../ we have
+                    const levels = match.split('../').length - 1;
+
+                    // Go up the directory tree
+                    let dir = postDir;
+                    for (let i = 0; i < levels; i++) {
+                        // Remove trailing slash, then remove last directory component
+                        dir = dir.substring(0, dir.lastIndexOf('/', dir.length - 2) + 1);
+                    }
+
+                    return 'src="' + dir + relativePath + '"';
+                });
+
+                // Also handle ./ paths
+                html = html.replace(/src="\.\/([^"]+)"/g, 'src="' + postDir + '$1"');
+
                 contentElement.innerHTML = html;
 
                 // Update page title

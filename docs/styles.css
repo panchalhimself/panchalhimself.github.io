@@ -595,6 +595,29 @@ body {
     color: var(--color-quote);
 }
 
+/* Images */
+.prose img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin: 1.5rem 0;
+    display: block;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+    border: 1px solid color-mix(in srgb, var(--color-accent-2) 15%, transparent);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.prose img:hover {
+    transform: scale(1.02);
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+}
+
+/* Center images that are alone in a paragraph */
+.prose p img:only-child {
+    margin-left: auto;
+    margin-right: auto;
+}
+
 /* Project grid */
 .project-grid {
     display: grid;

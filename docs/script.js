@@ -358,6 +358,11 @@ class MarkdownLoader {
         html = html.replace(/^## (.*$)/gim, '<h2 class="title">$1</h2>');
         html = html.replace(/^# (.*$)/gim, '<h1 class="title">$1</h1>');
 
+        // Convert images (must be before links since syntax is similar)
+        html = html.replace(/!\[([^\]]*)\]\(([^)]+)\)/g, function(match, alt, src) {
+            return '<img src="' + src + '" alt="' + alt + '" loading="lazy" />';
+        });
+
         // Convert bold text
         html = html.replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>');
 
