@@ -2,49 +2,18 @@
 
 ## Recent Blog Posts
 
-### [CKA Exam Experience](post.html?post=technical/Blogs/cka-exam-exp.md)
-*July 3, 2023*
+### [Basics of GPU and CPU](post.html?post=technical/Notes/AI-infra/cpu-gpu.md)
+Jan 4, 2026
 
-My experience taking the Certified Kubernetes Administrator exam. Real exam was easy compared to the killer.sh mock.
+## AI Infrastructure
 
-### [GitHub Actions: Basic Setup](post.html?post=technical/Blogs/github-actions-is-cool.md)
-*June 17, 2023*
+Just some personal notes on AI Infrastructure
 
-Getting started with GitHub Actions for CI/CD automation.
+- [Basics of GPU and CPU](post.html?post=technical/Notes/AI-infra/cpu-gpu.md)
 
-### [Filter AWS Resources Efficiently Using AWS CLI](post.html?post=technical/Blogs/filter-aws-resources-efficiently.md)
-*June 13, 2023*
+## Kubernetes (CKA) Learning Notes
 
-Tips and tricks for efficiently querying AWS resources using the AWS CLI.
-
-### [Simplifying Ruby Installation and Setup Using RVM](post.html?post=technical/Blogs/simplify-ruby-setups.md)
-*June 12, 2023*
-
-A guide to setting up Ruby development environments using RVM.
-
-### [Query Resource Details Across Different Regions in AWS](post.html?post=technical/Blogs/aws-cli-resource-flag.md)
-*June 10, 2023*
-
-How to quickly query AWS resources across multiple regions using AWS CLI.
-
-### [kubectl JSONPath Tips](post.html?post=technical/Blogs/kubectl-jsonpath.md)
-
-Advanced kubectl JSONPath techniques for querying Kubernetes resources.
-
-### [Kubernetes crictl Issues](post.html?post=technical/Blogs/k8s-crictl-issues.md)
-
-Common issues and solutions when working with crictl in Kubernetes.
-
----
-
-
-
-#K8s
-
-
-## Kubernetes (CKA) Notes
-
-Comprehensive series covering Kubernetes administration:
+Overall Lessons covering Basic Kubernetes Administration:
 
 - [Basic Terms and Overview](post.html?post=technical/Notes/k8s/k8s-1.1-Basic-Terms.md)
 - [Installing K8s Components](post.html?post=technical/Notes/k8s/k8s-1.2-install-k8s-components.md)
@@ -80,16 +49,8 @@ Comprehensive series covering Kubernetes administration:
 - [Topology Spread Constraints](post.html?post=technical/Notes/k8s/k8s-1.30-topology-spread-constraints.md)
 - [StatefulSets](post.html?post=technical/Notes/k8s/k8s-1.30-statefulsets.md)
 
----
 
 
-## AWS Solutions Architect Professional (SAP-C02)
+## Important Links
 
-Advanced AWS architectural patterns and topics:
-
-- [Data Stores](post.html?post=technical/Notes/aws-sap/data-stores.md)
-- [Networking](post.html?post=technical/Notes/aws-sap/networking.md)
-- [Security and Migrations](post.html?post=technical/Notes/aws-sap/security-and-migrations.md)
-- [Architecture to Scale](post.html?post=technical/Notes/aws-sap/architecure-to-scale.md)
-
----
+* [Everything cURL](https://everything.curl.dev/index.html) - Comprehensive cURL guide
