@@ -37,6 +37,11 @@ Common issues and solutions when working with crictl in Kubernetes.
 
 ---
 
+
+
+#K8s
+
+
 ## Kubernetes (CKA) Notes
 
 Comprehensive series covering Kubernetes administration:
@@ -77,19 +82,6 @@ Comprehensive series covering Kubernetes administration:
 
 ---
 
-## Kubernetes Security (CKS)
-
-Security-focused content for Certified Kubernetes Security Specialist:
-
-- [Basic Security Topics](post.html?post=technical/Notes/k8s-security/basic-topics.md)
-- [Cluster Setup Security](post.html?post=technical/Notes/k8s-security/k8s-security-1-cluster-setup.md)
-- [Cluster Hardening](post.html?post=technical/Notes/k8s-security/k8s-security-2-cluster-hardening.md)
-- [System Hardening](post.html?post=technical/Notes/k8s-security/k8s-security-3-system-hardening.md)
-- [Minimizing Microservice Vulnerabilities](post.html?post=technical/Notes/k8s-security/k8s-security-4-minimizing-microservice-vulnerabilities.md)
-- [Supply Chain Security](post.html?post=technical/Notes/k8s-security/k8s-security-5-supply-chain-security.md)
-- [Monitoring, Logging & Runtime Security](post.html?post=technical/Notes/k8s-security/k8s-security-6-monitoring-logging-runtime-security.md)
-
----
 
 ## AWS Solutions Architect Professional (SAP-C02)
 
@@ -101,7 +93,3 @@ Advanced AWS architectural patterns and topics:
 - [Architecture to Scale](post.html?post=technical/Notes/aws-sap/architecure-to-scale.md)
 
 ---
-
-## Certifications
-
-- [AWS Certified Solutions Architect - Associate (SAA-C03)](post.html?post=technical/Certifications/AWS-SAA03.md) - *May 2023*
