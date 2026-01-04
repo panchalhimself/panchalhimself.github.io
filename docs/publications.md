@@ -2,14 +2,11 @@
 
 ## Recent Blog Posts
 
-### [Basics of GPU and CPU](post.html?post=technical/Notes/AI-infra/cpu-gpu.md)
-Jan 4, 2026
-
 ## AI Infrastructure
 
 Just some personal notes on AI Infrastructure
 
-- [Basics of GPU and CPU](post.html?post=technical/Notes/AI-infra/cpu-gpu.md)
+- [Profiling GPUs](post.html?post=technical/Notes/Infra/profiling-gpus.md)
 
 ## Kubernetes (CKA) Learning Notes
 

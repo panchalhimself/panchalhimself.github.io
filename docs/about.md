@@ -3,7 +3,7 @@
 I share my learnings and experiences through technical blogs and detailed notes on various topics including:
 
 - **Package Testing Strategies** - Optimal ways to test linux packages across supported environments
-- **GPUs** - GPU partitioning and AI inference
+- **Infra** - Servers, GPUs and Inference setups
 - **K8s** - Cluster administration, security, and best practices
 - **AWS** - Solutions Architecture and cloud infrastructure
 - **DevOps** - CI/CD, automation, and infrastructure as code
