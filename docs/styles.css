@@ -305,6 +305,14 @@ body {
     border-radius: 4px;
 }
 
+/* Logo SVG sizing for all screens */
+#main-header svg {
+    filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.1));
+    height: 3.5rem;
+    width: 2.1rem;
+    transition: transform 0.2s ease;
+}
+
 /* Navigation styles - Desktop */
 .mobile-nav-menu {
     /* Desktop styles */
