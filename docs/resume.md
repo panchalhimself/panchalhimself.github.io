@@ -6,8 +6,6 @@
 
 * Certified Kubernetes Administrator (CKA) *July 2023*
 
-
-
 ## Speaker @
 
 - FOSDEM 2025 [Streamlining Package Testing with Molecule and Jenkins](https://fosdem.org/2025/schedule/event/fosdem-2025-4807-streamlining-package-testing-with-molecule-and-jenkins/) Brussels, Belgium 

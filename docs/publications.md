@@ -6,6 +6,7 @@
 
 Just some personal notes on AI Infrastructure
 
+- [Inference Bottlenecks](post.html?post=technical/Notes/Infra/typical-ai-inference-bottlenecks.md)
 - [Profiling GPUs](post.html?post=technical/Notes/Infra/profiling-gpus.md)
 
 ## Kubernetes (CKA) Learning Notes
