@@ -25,3 +25,10 @@ While training on the other hand is compute heavy.
 So typical LLMs and Diffusion models have idle SMs while GPU memory are utilized most of the time due to weight loading and memory transfers.
 
 
+
+
+
+
+CPUs are latency machines (Few threads but they are cutting latency)
+
+GPUs are throughput machines (Far more threads than the CPUs)
