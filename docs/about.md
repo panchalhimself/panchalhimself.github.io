@@ -3,12 +3,7 @@
 I share my learnings and experiences through technical blogs and detailed notes on various topics including:
 
 - **Package Testing Strategies** - Optimal ways to test linux packages across supported environments
-- **Infra** - Servers, GPUs and Inference setups
-- **K8s** - Cluster administration, security, and best practices
-- **AWS** - Solutions Architecture and cloud infrastructure
-- **DevOps** - CI/CD, automation, and infrastructure as code
-
-Feel free to explore my blog posts and technical notes. All content is based on real-world experience and certification preparation.
+- **Infrastructure** - Servers, GPUs sharing and monitoring.
 
 ## Speaker @
 
@@ -16,10 +11,9 @@ Feel free to explore my blog posts and technical notes. All content is based on 
 
 - FOSDEM 2026 [GPU Virtualization with MIG: Multi-Tenant Isolation for AI Inference Workloads](https://fosdem.org/2026/schedule/event/7UVSNE-gpu-virtualization-with-mig/) Brussels, Belgium 
 
-- FOSDEM 2026 [GPU Virtualization with MIG: Multi-Tenant Isolation for AI Inference Workloads](https://fosdem.org/2026/schedule/event/7UVSNE-gpu-virtualization-with-mig/) Brussels, Belgium 
+- FOSDEM 2026 [Beyond nvidia-smi: Tools for Real GPU Performance Metrics](https://fosdem.org/2026/schedule/event/BBYZLU-gpu-performance-monitoring/) Brussels, Belgium 
 
-- FOSDEM 2025 [Beyond nvidia-smi: Tools for Real GPU Performance Metrics](https://fosdem.org/2026/schedule/event/BBYZLU-gpu-performance-monitoring/) Brussels, Belgium 
-
+- FOSDEM 2025 [Streamlining package testing with Molecule and Jenkins](https://archive.fosdem.org/2025/schedule/event/fosdem-2025-4807-streamlining-package-testing-with-molecule-and-jenkins/) Brussels, Belgium 
 
 ## Certifications
 
