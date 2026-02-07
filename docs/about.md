@@ -5,6 +5,10 @@ I share my learnings and experiences through technical blogs and detailed notes 
 - **Package Testing Strategies** - Optimal ways to test linux packages across supported environments
 - **Infrastructure** - Servers, GPUs sharing and monitoring.
 
+# Work
+
+SDET III @ Percona 
+
 ## Speaker @
 
 - FOSDEM 2026 [One GPU, Many Models: What Works and What Segfaults](https://fosdem.org/2026/schedule/event/B39JSW-one-gpu-many-models/) Brussels, Belgium 
