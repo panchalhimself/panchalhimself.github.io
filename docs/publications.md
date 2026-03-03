@@ -6,6 +6,8 @@
 
 Just some personal notes on AI Infrastructure
 
+
+- [Understanding the significance of the CPU in the age of GPU ](post.html?post=technical/Notes/Infra/understanding-significance-of-cpu-gpu-hype.md)
 - [Beyond nvidia-smi part 1: Common pitfalls and methods to measure GPU efficiency ](post.html?post=technical/Notes/Infra/Beyond-nvidia-smi-pt-1.md)
 - [Inference Bottlenecks](post.html?post=technical/Notes/Infra/typical-ai-inference-bottlenecks.md)
 - [Profiling GPUs](post.html?post=technical/Notes/Infra/profiling-gpus.md)
