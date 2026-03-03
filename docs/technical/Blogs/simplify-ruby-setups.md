@@ -1,3 +1,8 @@
+---
+layout: post.njk
+title: "Simple way to setup ruby on linux"
+---
+
 # Simple way to setup ruby on linux
 12 Jun 2023
 

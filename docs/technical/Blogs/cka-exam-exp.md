@@ -1,3 +1,8 @@
+---
+layout: post.njk
+title: "CKA Exam"
+---
+
 # CKA Exam
 3 July 2023
 

@@ -1,3 +1,8 @@
+---
+layout: post.njk
+title: "1. Security Contexts for container access management"
+---
+
 # 1. Security Contexts for container access management
 
 

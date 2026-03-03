@@ -1,0 +1,14 @@
+{
+  "name": "yash-panchal-blog",
+  "version": "1.0.0",
+  "description": "Technical blog by Yash Panchal",
+  "scripts": {
+    "build": "eleventy",
+    "serve": "eleventy --serve",
+    "start": "eleventy --serve"
+  },
+  "devDependencies": {
+    "@11ty/eleventy": "^3.0.0",
+    "markdown-it": "^14.1.0"
+  }
+}

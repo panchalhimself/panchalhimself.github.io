@@ -1,3 +1,8 @@
+---
+layout: post.njk
+title: "Filter aws resources efficiently using aws cli"
+---
+
 # Filter aws resources efficiently using aws cli
 13 Jun 2023
 

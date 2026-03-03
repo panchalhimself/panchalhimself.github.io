@@ -1,3 +1,8 @@
+---
+layout: post.njk
+title: "1. Network Policies for restricting default access"
+---
+
 # 1. Network Policies for restricting default access
 
 Allow you to control communication to and from the pods.

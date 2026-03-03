@@ -1,3 +1,8 @@
+---
+layout: post.njk
+title: "Understanding the significance of the CPU in the age of GPU."
+---
+
 # Understanding the significance of the CPU in the age of GPU.
 
 

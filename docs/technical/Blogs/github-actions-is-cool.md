@@ -1,3 +1,8 @@
+---
+layout: post.njk
+title: "Github actions might become the keeper <3"
+---
+
 # Github actions might become the keeper <3
 17 Jun 2023
 

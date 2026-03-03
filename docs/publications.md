@@ -1,3 +1,8 @@
+---
+permalink: false
+eleventyExcludeFromCollections: true
+---
+
 # Blog Posts & Technical Notes
 
 ## Recent Blog Posts

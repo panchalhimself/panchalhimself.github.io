@@ -1,3 +1,8 @@
+---
+layout: post.njk
+title: "Untitled"
+---
+
 ## Some issues encountered during crictl command execution on local k8s setup.
 
 ```

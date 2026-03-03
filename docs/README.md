@@ -1,5 +1,6 @@
 ---
-permalink: /
+permalink: false
+eleventyExcludeFromCollections: true
 ---
 
 ## **Important Links**

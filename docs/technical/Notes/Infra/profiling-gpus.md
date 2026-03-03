@@ -1,3 +1,8 @@
+---
+layout: post.njk
+title: "Untitled"
+---
+
 Before we get started with the Profiling part we should first be clear with overview of the GPU wrt to CPU Servers.
 
 Enterprise GPUs such as H100 and B200 are in a nutshell massively parallel computation accelerators.

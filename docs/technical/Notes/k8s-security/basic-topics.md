@@ -1,3 +1,8 @@
+---
+layout: post.njk
+title: "Basic Topics"
+---
+
 # Basic Topics
 
 

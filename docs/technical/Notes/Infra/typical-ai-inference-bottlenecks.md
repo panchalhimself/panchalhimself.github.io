@@ -1,3 +1,8 @@
+---
+layout: post.njk
+title: "Present bottlenecks with regards to AI inference."
+---
+
 # Present bottlenecks with regards to AI inference.
 
 

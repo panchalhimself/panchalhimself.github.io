@@ -1,3 +1,8 @@
+---
+layout: post.njk
+title: "Beyond nvidia-smi part - 1"
+---
+
 
 # Beyond nvidia-smi part - 1
 

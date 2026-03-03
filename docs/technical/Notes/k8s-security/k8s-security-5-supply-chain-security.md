@@ -1,3 +1,8 @@
+---
+layout: post.njk
+title: "1. Minimizing Base Image Attack Surface"
+---
+
 # 1. Minimizing Base Image Attack Surface
 
 

@@ -1,3 +1,8 @@
+---
+permalink: false
+eleventyExcludeFromCollections: true
+---
+
 # About
 
 I share my learnings and experiences through technical blogs and detailed notes on various topics including:

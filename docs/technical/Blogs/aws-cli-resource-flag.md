@@ -1,3 +1,8 @@
+---
+layout: post.njk
+title: "AWS CLI regional selection flag"
+---
+
 # AWS CLI regional selection flag
 10 Jun 2023
 
