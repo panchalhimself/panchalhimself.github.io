@@ -129,92 +129,73 @@
             }
         }
 
-        // Markdown parser
-        function parseMarkdown(markdown) {
-            let html = markdown;
-            const codeBlocks = [];
-            const inlineCode = [];
+    function parseMarkdown(markdown) {
+        let html = markdown;
+        const codeBlocks = [];
+        const inlineCode = [];
 
-            // Step 1: Extract and protect code blocks
-            html = html.replace(/```[\s\S]*?```/g, function(match, offset) {
-                let code = match.substring(3, match.length - 3).trim();
-                // Escape HTML entities in code
-                code = code.replace(/&/g, '&amp;')
-                           .replace(/</g, '&lt;')
-                           .replace(/>/g, '&gt;');
-                const placeholder = `___CODEBLOCK_${codeBlocks.length}___`;
-                codeBlocks.push('<pre><code>' + code + '</code></pre>');
-                return placeholder;
-            });
+        // Step 1: Protect code blocks and inline code (Keep your existing logic here)
+        html = html.replace(/```[\s\S]*?```/g, function(match) {
+            let code = match.substring(3, match.length - 3).trim();
+            code = code.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+            const placeholder = `___CODEBLOCK_${codeBlocks.length}___`;
+            codeBlocks.push('<pre><code>' + code + '</code></pre>');
+            return placeholder;
+        });
 
-            // Step 2: Extract and protect inline code
-            html = html.replace(/`([^`\n]+)`/g, function(match, code) {
-                code = code.replace(/&/g, '&amp;')
-                          .replace(/</g, '&lt;')
-                          .replace(/>/g, '&gt;');
-                const placeholder = `___INLINECODE_${inlineCode.length}___`;
-                inlineCode.push('<code>' + code + '</code>');
-                return placeholder;
-            });
+        html = html.replace(/`([^`\n]+)`/g, function(match, code) {
+            code = code.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+            const placeholder = `___INLINECODE_${inlineCode.length}___`;
+            inlineCode.push('<code>' + code + '</code>');
+            return placeholder;
+        });
 
-            // Step 3: Process markdown (now safe from code interference)
+        // Step 2: Headers
+        html = html.replace(/^### (.*$)/gim, '<h3>$1</h3>');
+        html = html.replace(/^## (.*$)/gim, '<h2 class="title">$1</h2>');
+        html = html.replace(/^# (.*$)/gim, '<h1 class="title">$1</h1>');
 
-            // Convert headers
-            html = html.replace(/^### (.*$)/gim, '<h3>$1</h3>');
-            html = html.replace(/^## (.*$)/gim, '<h2 class="title">$1</h2>');
-            html = html.replace(/^# (.*$)/gim, '<h1 class="title">$1</h1>');
+        // Step 3: Lists (Fixed Logic)
+        // Identify Unordered List Items
+        html = html.replace(/^\s*[\-\*] (.+)$/gm, '<li class="ul-item">$1</li>');
+        
+        // Identify Ordered List Items (The missing piece!)
+        html = html.replace(/^\s*\d+\. (.+)$/gm, '<li class="ol-item">$1</li>');
 
-            // Convert images (must be before links since syntax is similar)
-            html = html.replace(/!\[([^\]]*)\]\(([^)]+)\)/g, function(match, alt, src) {
-                return '<img src="' + src + '" alt="' + alt + '" loading="lazy" />';
-            });
+        // Wrap consecutive ul-items in <ul>
+        html = html.replace(/(<li class="ul-item">.*?<\/li>(?:\s*<li class="ul-item">.*?<\/li>)*)/gs, '<ul>$1</ul>');
+        
+        // Wrap consecutive ol-items in <ol>
+        html = html.replace(/(<li class="ol-item">.*?<\/li>(?:\s*<li class="ol-item">.*?<\/li>)*)/gs, '<ol>$1</ol>');
 
-            // Convert bold text
-            html = html.replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>');
+        // Clean up temporary classes
+        html = html.replace(/ class="(ul|ol)-item"/g, '');
 
-            // Convert italic text (single asterisk, but not at start of line for lists)
-            html = html.replace(/([^\n\*])\*([^\*\s][^\*]*?)\*/g, '$1<em>$2</em>');
+        // Step 4: Formatting (Bold, Italic, Links, Images)
+        html = html.replace(/!\[([^\]]*)\]\(([^)]+)\)/g, '<img src="$2" alt="$1" loading="lazy" />');
+        html = html.replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>');
+        html = html.replace(/([^\n\*])\*([^\*\s][^\*]*?)\*/g, '$1<em>$2</em>');
+        html = html.replace(/\[([^\]]+)\]\(([^)]+)\)/g, '<a href="$2" class="cactus-link">$1</a>');
 
-            // Convert links
-            html = html.replace(/\[([^\]]+)\]\(([^)]+)\)/g, '<a href="$2" class="cactus-link">$1</a>');
+        // Step 5: Paragraphs
+        const paragraphs = html.split(/\n\s*\n/);
+        html = paragraphs.map(p => {
+            p = p.trim();
+            if (!p) return '';
+            // Don't wrap if it's already a structural tag
+            if (/^<(ul|ol|li|h|pre|hr|img|div)/.test(p)) return p;
+            if (p.includes('___CODEBLOCK_') || p.includes('___INLINECODE_')) return p;
+            return `<p>${p}</p>`;
+        }).join('\n\n');
 
-            // Convert unordered lists (now safe, code is protected)
-            html = html.replace(/^\s*[\-\*] (.+)$/gm, '<li>$1</li>');
-            html = html.replace(/(<li>.*<\/li>)/s, '<ul>$1</ul>');
+        html = html.replace(/^---$/gm, '<hr>');
 
-            // Convert paragraphs (split by double newlines)
-            const paragraphs = html.split(/\n\s*\n/);
-            html = paragraphs.map(p => {
-                p = p.trim();
-                if (!p) return '';
+        // Step 6: Restore code (Keep your existing logic here)
+        inlineCode.forEach((code, index) => { html = html.replace(`___INLINECODE_${index}___`, code); });
+        codeBlocks.forEach((code, index) => { html = html.replace(`___CODEBLOCK_${index}___`, code); });
 
-                // Skip if already wrapped in HTML tags or contains placeholders
-                if (p.startsWith('<') && p.endsWith('>')) return p;
-                if (p.includes('___CODEBLOCK_') || p.includes('___INLINECODE_')) return p;
-                if (p.includes('<li>') || p.includes('<h') || p.includes('<ul>') || p.includes('<div')) return p;
-
-                return `<p>${p}</p>`;
-            }).join('\n\n');
-
-            // Clean up nested tags
-            html = html.replace(/<ul>\s*(<li>.*?<\/li>)\s*<\/ul>/gs, '<ul>$1</ul>');
-            html = html.replace(/<li><\/li>/g, '');
-
-            // Convert horizontal rules
-            html = html.replace(/^---$/gm, '<hr>');
-
-            // Step 4: Restore inline code
-            inlineCode.forEach((code, index) => {
-                html = html.replace(`___INLINECODE_${index}___`, code);
-            });
-
-            // Step 5: Restore code blocks
-            codeBlocks.forEach((code, index) => {
-                html = html.replace(`___CODEBLOCK_${index}___`, code);
-            });
-
-            return html;
-        }
+        return html;
+    }
 
         // Load post based on URL parameter
         async function loadPost() {
